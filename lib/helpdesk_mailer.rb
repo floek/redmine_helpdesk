@@ -85,7 +85,7 @@ class HelpdeskMailer < ActionMailer::Base
         :subject  => subject,
         :date     => Time.zone.now,
         :template_path => 'mailer',
-        :template_name => 'issue_edit'
+        :template_name => 'private_notes'
       )
     end
     # return mail object to deliver it
